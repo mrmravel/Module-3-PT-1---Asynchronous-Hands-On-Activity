@@ -1,11 +1,11 @@
 import java.util.Scanner;
 
-public class GradeChecker {
+public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Enter your grade (A-F): ");
-        char grade = scanner.next().toUpperCase().charAt(0); // Ensures input is uppercase
+        char grade = scanner.next().toUpperCase().charAt(0);
 
         switch (grade) {
             case 'A':
